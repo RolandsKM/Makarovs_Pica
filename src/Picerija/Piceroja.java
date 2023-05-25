@@ -69,7 +69,7 @@ public class Piceroja implements ActionListener {
 	  }
 	  if(e.getSource()==Pasutijumi) {
 		   frame.dispose();
-		   Pasutijumi Picerij = new Pasutijumi();
+		   Pasutijum Picerij = new Pasutijum();
 		  }
 	 }
 	
