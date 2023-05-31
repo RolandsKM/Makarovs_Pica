@@ -18,7 +18,7 @@ import javax.swing.JPanel;
 public class Piceroja implements ActionListener {
 	
 	 JButton Picerija = new JButton("Roland Picērija");
-	 JButton Pasutijumi = new JButton("Pasutijumi");
+	 
 	 JFrame frame = new JFrame();
 	 Piceroja(){
 		
@@ -45,11 +45,6 @@ public class Piceroja implements ActionListener {
 		    Picerija.setBackground(Crasa);
 		    background.add(Picerija); 
 		    
-		    Pasutijumi.setBounds(240, 540, 150, 20);
-		    Pasutijumi.addActionListener(this);
-		    Pasutijumi.setFocusable(false);
-		    Pasutijumi.setBackground(Crasa);
-		    background.add(Pasutijumi); 
 		    
 		    
 		    frame.add(background);
@@ -67,11 +62,7 @@ public class Piceroja implements ActionListener {
 	   frame.dispose();
 	   PicaVeidosana manPicerija = new PicaVeidosana();
 	  }
-	  if(e.getSource()==Pasutijumi) {
-		   frame.dispose();
-		   Pasutijumi Picerij = new Pasutijumi();
-		  }
-	 }
+	}
 	
 	}
 
