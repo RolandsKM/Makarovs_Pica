@@ -2,5 +2,5 @@
 ** Picerijas Uzlabošana
 - [x] Git pushosana
 - [x] Pogu Pielikšana uz citu class failu
-- [ ] Failu Lasīšana No Loga
+- [x] Failu Lasīšana No Loga
 
